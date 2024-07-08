@@ -6,29 +6,6 @@ from send2 import send
 today = datetime.datetime.today()
 
 
-# hard-coded email contacts given matter_type and handling_firm
-contacts_247 = {
-    'paraquat' : {'motley rice' : ['rwindsor@motleyrice.com', 'cscott@motleyrice.com', 'ffitzpatrick@motleyrice.com']},
-    'rideshare' : {'nachawati law group' : ['dbias@ntrial.com', 'lroundtree@ntrial.com']},
-    'talc' : {'ashcraft & gerel' : ['plyons@ashcraftlaw.com']},
-    'talc workup' : {'ashcraft & gerel' : ['plyons@ashcraftlaw.com']},
-    'afff' : {'elg' : ['treven@elglaw.com'], 'susen law group' : ['nsimet@hirecsg.com']},
-    'afff workup' : {'elg' : ['treven@elglaw.com'], 'susen law group' : ['nsimet@hirecsg.com']},
-    'roundup' : {'kline & specter' : ['priscilla.jimenez@klinespecter.com', 'madisyn.zadjeika@klinespecter.com']},
-    'hair straightener' : {'ashcraft & gerel' : ['plyons@ashcraftlaw.com']},
-    'camp lejeune' : {'krause & kinsman' : ['adam@krauseandkinsman.com', 'bryan@krauseandkinsman.com', 'schery@krauseandkinsman.com'],
-                      'wright & schulte' : ['ryan@ibexlegal.com', 'greg@ibexlegal.com']},
-    'hernia mesh' : {'wright & schulte' : ['ryan@ibexlegal.com', 'greg@ibexlegal.com']},
-    'truvada' : {'parafinczuk wolf' : ['nnelson@parawolf.com']},
-    'toxic metal baby formula' : {'wagstaff' : ['hcharm@wagstafflawfirm.com']},
-}
-
-contacts_252 = {
-    'roundup': {'kline & specter' : ['madisyn.zadjeika@klinespecter.com']},
-    'talc': {'ashcraft & gerel' : ['plyons@ashcraftlaw.com']},
-    'talc workup' : {'ashcraft & gerel' : ['plyons@ashcraftlaw.com']},
-    'hair straightener' : {'ashcraft & gerel' : ['plyons@ashcraftlaw.com']}
-}
 ##############################################################################
 # Test
 # contacts_247 = {
