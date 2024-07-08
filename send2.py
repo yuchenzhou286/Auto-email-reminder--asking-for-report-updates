@@ -12,32 +12,7 @@ import base64
 config = configparser.ConfigParser()
 config.read('config.ini')
 
-# email_name = {
-#     'nsimet@hirecsg.com' : 'Nicole',
-#     'ryan@ibexlegal.com' : 'Ryan',
-#     'adam@krauseandkinsman.com' : 'Adam',
-#     'bryan@krauseandkinsman.com' : 'Bryan',
-#     'schery@krauseandkinsman.com' : 'Schery',
-#     'rwindsor@motleyrice.com' : 'Rachel',
-#     'cscott@motleyrice.com' : 'Carmen',
-#     'ffitzpatrick@motleyrice.com' : 'Fidelma',
-#     'dbias@ntrial.com' : 'Drew',
-#     'lroundtree@ntrial.com' : 'Lauren',
-#     'madisyn.zadjeika@klinespecter.com' : 'Madi',
-#     'priscilla.jimenez@klinespecter.com' : 'Priscill',
-#     'plyons@ashcraftlaw.com' : 'Patrick',
-#     'hcharm@wagstafflawfirm.com' : 'Hillel',
-#     'nnelson@parawolf.com' : 'Nancy',
-#     'treven@elglaw.com' : 'Treven',
-# }
 
-# cc_email = {
-#     '247' : ['mia.ye@bridgelegal.com', 'meghan@bridgelegal.com', 'evanatkinson@baypointadvisors.com'],
-#     '252' : ['mia.ye@bridgelegal.com', 'meghan@bridgelegal.com'],
-# }
-
-
-#########################################################
 
 email_name = {
     '737791989@qq.com' : 'Adam',
