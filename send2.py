@@ -99,7 +99,7 @@ def send(matter_type, email_list, org_id):
     body = (
         "Hi {fn},\n\n"
         "Hope all is well!\n\n"
-        "I am Cindy from Bridge Legal. Can you please send us an updated case status report for all of {fo} {fc} cases? "
+        "I am Cindy. Can you please send us an updated case status report for all of {fo} {fc} cases? "
         "If you are able to provide this information by the end of this week or early next week, we would greatly appreciate it!\n\n"
         "Hope you have a good week!\n\n"
         "Best,\n"
